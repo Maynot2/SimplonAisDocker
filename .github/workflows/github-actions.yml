@@ -20,3 +20,4 @@ jobs:
           ssh -i $SSH_KEY_PATH grp2@groupe2.ais1-bordeaux.fr
           cd Docker/SimplonAisDocker
           git pull
+        shell: bash
