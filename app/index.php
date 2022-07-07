@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 $db_list = mysqli_query($conn, "SHOW DATABASES");
 
-echo "<p>Un test</p>"
+echo "<p>Un test</p>";
 
 echo "<h1>Liste des bases de donnee:</h1>";
 
