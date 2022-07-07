@@ -11,5 +11,6 @@ jobs:
       - name: Deploy
         run: |
           ssh -o StrictHostKeychecking=no grp2@groupe2.ais1-bordeaux.fr
+          hostname
           cd ~/Docker/SimplonAisDocker
           git pull
